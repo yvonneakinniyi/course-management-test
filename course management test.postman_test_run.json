@@ -1,0 +1,378 @@
+{
+	"id": "c9409d91-4d46-4ab3-84b6-5df3ee2325cb",
+	"name": "COURSES",
+	"timestamp": "2022-10-08T11:18:24.742Z",
+	"collection_id": "23014254-cb2857c8-98a0-4073-85ad-7358e06ae9fb",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 70,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "016c540c-497f-4ac5-bfe0-4f1ce1a43935",
+			"name": "CREATE COURSE",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				152,
+				170,
+				154,
+				154,
+				159,
+				155,
+				164,
+				142,
+				169,
+				157
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e488ed4b-899b-4c96-9125-bf3a5ebed3a1",
+			"name": "LIST COURSES",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches course tittle": true
+			},
+			"testPassFailCounts": {
+				"Body matches course tittle": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				153,
+				162,
+				150,
+				157,
+				171,
+				157,
+				144,
+				138,
+				155,
+				165
+			],
+			"allTests": [
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				},
+				{
+					"Body matches course tittle": true
+				}
+			]
+		},
+		{
+			"id": "cb049606-1610-4c5d-8746-9993b119dbbb",
+			"name": "GET COURSE",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches course tittle": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches course tittle": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				149,
+				156,
+				163,
+				145,
+				153,
+				158,
+				154,
+				152,
+				151,
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				}
+			]
+		},
+		{
+			"id": "0fa574f5-a227-4a7d-913a-5de0575b0a11",
+			"name": "UPDATE COURSE",
+			"time": 152,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches course tittle": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches course tittle": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				152,
+				157,
+				171,
+				152,
+				146,
+				142,
+				151,
+				153,
+				155,
+				152
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches course tittle": true
+				}
+			]
+		},
+		{
+			"id": "1ba29eaf-568d-4c25-9eff-e13bea774e64",
+			"name": "DELETE COURSE",
+			"time": 149,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				157,
+				151,
+				148,
+				155,
+				149,
+				143,
+				161,
+				166,
+				426,
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 7994,
+	"collection": {
+		"requests": [
+			{
+				"id": "016c540c-497f-4ac5-bfe0-4f1ce1a43935",
+				"method": "POST"
+			},
+			{
+				"id": "e488ed4b-899b-4c96-9125-bf3a5ebed3a1",
+				"method": "GET"
+			},
+			{
+				"id": "cb049606-1610-4c5d-8746-9993b119dbbb",
+				"method": "GET"
+			},
+			{
+				"id": "0fa574f5-a227-4a7d-913a-5de0575b0a11",
+				"method": "PUT"
+			},
+			{
+				"id": "1ba29eaf-568d-4c25-9eff-e13bea774e64",
+				"method": "DELETE"
+			}
+		]
+	}
+}
